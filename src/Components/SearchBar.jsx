@@ -3,7 +3,7 @@ import React from 'react';
 const SearchBar = ({ searchInput, setSearchInput, handleSearch }) => {
   return (
     <form onSubmit={handleSearch} className="text-center">
-      <h1 className="mt-8 ml-[-10px] text-2xl mb-8">Image Search App</h1>
+      <h1 className="mt-8 ml-[-10px] text-2xl mb-8">Image Gallery</h1>
       <input
         id="searchInput"
         type="text"
